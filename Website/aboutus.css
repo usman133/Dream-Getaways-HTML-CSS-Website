@@ -1,0 +1,302 @@
+body {
+  background-image: url("http://2.bp.blogspot.com/-Xmo26BMqg5Q/UihlqVwTwgI/AAAAAAAAAv0/V-Rrgm0V6oo/s1600/Top+10+best+Simple+Awesome+Background+Images+for+Your+Website+or+Blog3.jpg");
+  font-family: "Roboto", sans-serif;
+  background-size: 100% 200%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+ 
+.wrapper {
+  width: 100%;
+  margin: auto;
+}
+ 
+a {
+  text-decoration: none;
+}
+ 
+ p{
+	text-align: left;
+	line-height: 1.8;
+	font-size: 20px;
+ }
+.top-bar::after {
+  content: '';
+  display: block;
+  background: #494949;
+  height: 5px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+ /* /* nav {
+  width:100%;
+  mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+nav ul {
+  text-align: center;
+  background: #343434;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  padding: 18px;
+  font-family: "Open Sans";
+  text-transform:uppercase;
+  color:white;
+  font-size: 18px;
+  text-decoration: none;
+  display: block;
+}
+
+nav ul li a:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  background: #111111;
+  color: white;
+} */ */
+
+ 
+/* .main-nav a {
+  float: left;
+  width: auto;
+  background: #343434;
+}
+ 
+nav a {
+  color: inherit;
+  display: inline-block;
+  width:100%;
+  text-align: center;
+}
+ ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333333;
+	text-align:center;
+}
+
+li {
+	display:inline-block;
+}
+
+ul li{
+    margin-left: auto;
+    margin-right: auto;
+}
+li a {
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+} */
+
+
+/*Body Styling*/
+
+#about {
+	width: 90%;
+	background-color: #468499;
+	
+  border: 1px solid black;
+	
+}
+
+p {
+	 width: 70%;
+	 
+ }
+ 
+ .container-fluid
+{
+  width: 90%;
+  height: auto;
+  border: 1px solid black;
+  background-color: #468499;
+  position:static;
+}
+
+ 
+ #first{
+  display: inline;
+  width: 500px;
+  text-align: left;
+  padding: 20px;
+  border-radius: 3px;
+  float:auto;
+  }
+
+#second{
+  display: inline;
+  width: 500px;
+  text-align: left;
+  padding: 20px;
+  border-radius: 3px;
+ float:auto;
+  }
+  
+#third{
+  display: inline;
+  width: 500px;
+  text-align: left;
+  padding: 20px;
+  border-radius: 3px;
+  float:auto;
+  }
+  
+#fourth{
+  display: inline;
+  width: 500px;
+  text-align: left;
+  padding: 20px;
+  border-radius: 3px;
+}
+
+#fifth{
+  display: inline;
+  width: 500px;
+  text-align: left;
+  padding: 20px;
+  border-radius: 3px;
+}
+
+#sixth{
+  display: inline;
+  width: 500px;
+  text-align: left;
+  padding: 20px;
+  border-radius: 3px;
+}
+h2, p {
+	color: black;
+}
+
+footer {
+  background: #2db34a;
+  bottom: 0;
+  left: 0;
+  padding: 20px 0;
+  position: bottom;
+  right: 0;
+  color: #808080; 
+font-size: 18px; 
+font-family: Arial, ArialRegular, helvetica, sans-serif;
+background: #000000;
+ width:90%;
+}
+
+
+header {
+  height:360px;
+  z-index:10;
+}
+.header-banner {
+  background-color: #333;
+  background-image: url('header.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:90%;
+  height: 95%;
+}
+
+header .logo {
+  background-color: transparent;
+  background-image: url('http://www.futhead.com/static//img/14/clubs/1887.png');
+  background-position: center top;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 72px; 
+  height: 256px;
+  width: 256px;
+}
+
+header h1 {
+  position: absolute;
+		
+  top: 72px; 
+  left: 240px;
+  color: #fff;
+}
+
+.fixed-header {
+  position: fixed;
+  top:0; left:0;
+  width: 100%; 
+}
+
+nav {
+  width:100%;
+  height:60px;
+  background: #292f36;
+  postion:fixed;
+  z-index:10;
+}
+
+nav ul { 
+  list-style-type: none;
+  margin: 0 auto;
+  padding-left:0;
+  width: 100%;
+  max-width: 100%;
+height:100%;
+   text-align: center;
+  background: #343434;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+nav ul li { 
+  display: inline-block; 
+  line-height: 20px;
+  margin-left: 10px;
+  
+}
+nav ul li a {
+   padding: 18px;
+  font-family: "Open Sans";
+  text-transform:uppercase;
+  color:white;
+  font-size: 18px;
+  text-decoration: none;
+  display: block;
+  
+}
+
+nav ul li a:hover {
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  background: #111111;
+  color: white;
+}
+
+  .banner{
+  position: absolute;
+  float:right;
+  left: 50%;
+  display: block;
+  margin: 210px -200px;
+  width: 400px;
+  height: 60px;
+  border: 1px solid #8a1;
+  font: normal 30px/60px 'Rye';
+  text-align: center;
+  color: #451;
+  background: #E3EEB1  ;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,392 @@
+body {
+  background-image: url("http://2.bp.blogspot.com/-Xmo26BMqg5Q/UihlqVwTwgI/AAAAAAAAAv0/V-Rrgm0V6oo/s1600/Top+10+best+Simple+Awesome+Background+Images+for+Your+Website+or+Blog3.jpg");
+  font-family: "Roboto", sans-serif;
+  background-size: 100% 200%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+ 
+.wrapper {
+  width: 100%;
+  margin: auto;
+}
+ 
+a {
+  text-decoration: none;
+}
+ 
+/*Nav Bar Styling*/
+ 
+
+.logo {
+  font-size: 3em;
+  margin-left: 25px;
+  color: white;
+}
+ 
+.top-bar::after {
+  content: '';
+  display: block;
+  background: #494949;
+  height: 5px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+ /* nav {
+  /* max-width: 960px; */
+  width:100%;
+  mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+nav ul {
+  text-align: center;
+  background: #343434;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  padding: 18px;
+  font-family: "Open Sans";
+  text-transform:uppercase;
+  color:white;
+  font-size: 18px;
+  text-decoration: none;
+  display: block;
+}
+
+nav ul li a:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  background: #111111;
+  color: white;
+} */
+
+
+ 
+/* .second-bar {
+  width: 100%;
+  border-radius: 10px;
+}
+ 
+.main-nav a {
+  float: left;
+  width: auto;
+  background: #343434;
+}
+ 
+
+ 
+nav a {
+  color: inherit;
+  display: inline-block;
+  padding: 30px 50px;
+  text-align: center;
+}
+ ul {
+	
+    list-style-type: none;
+    margin: 0px 30px 0px 30px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    margin-right: 25%;
+	margin-left: 28.5%;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+} */
+
+
+
+
+p{
+	color: black;
+	width: 70%;
+	
+}
+h3 {
+	color: black;
+}
+
+footer {
+  background: #2db34a;
+  bottom: 0;
+  left: 0;
+  padding: 20px 0;
+  position: bottom;
+  right: 0;
+  color: #808080; 
+font-size: 18px; 
+font-family: Arial, ArialRegular, helvetica, sans-serif;
+background: #000000;
+ width:90%;
+}
+
+
+
+
+
+
+*,:after,:before{box-sizing:border-box}
+.clearfix:after,.clearfix:before{content:'';display:table}
+.clearfix:after{clear:both;display:block}
+a{color:inherit;text-decoration:none}
+
+.login-wrap{
+	padding-top: 40px;
+	width:100%;
+	margin:auto;
+	max-width:525px;
+	min-height:670px;
+	position:relative;
+	background:url(https://raw.githubusercontent.com/khadkamhn/day-01-login-form/master/img/bg.jpg) no-repeat center padding-top:40px;
+	box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+}
+.login-html{
+	width:100%;
+	height:auto;
+	position:absolute;
+	padding:90px 70px 50px 70px;
+	background:rgba(40,57,101,.9);
+}
+.login-html .sign-in-html{
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	position:absolute;
+	transform:rotateY(180deg);
+	backface-visibility:hidden;
+	transition:all .4s linear;
+}
+.login-html .sign-in,
+.login-form .group .check{
+	display:none;
+}
+.login-html .tab,
+.login-form .group .label,
+.login-form .group .button{
+	text-transform:uppercase;
+}
+.login-html .tab{
+	font-size:22px;
+	margin-right:15px;
+	padding-bottom:5px;
+	margin:0 15px 10px 0;
+	display:inline-block;
+	border-bottom:2px solid transparent;
+}
+.login-html .sign-in:checked + .tab,
+.login-html{
+	color:#fff;
+	border-color:#1161ee;
+}
+.login-form{
+	min-height:345px;
+	position:relative;
+	perspective:1000px;
+	transform-style:preserve-3d;
+}
+.login-form .group{
+	margin-bottom:15px;
+}
+.login-form .group .label,
+.login-form .group .input,
+.login-form .group .button{
+	width:100%;
+	color:#fff;
+	display:block;
+}
+.login-form .group .input,
+.login-form .group .button{
+	border:none;
+	padding:15px 20px;
+	border-radius:25px;
+	background:rgba(255,255,255,.1);
+}
+.login-form .group input[data-type="password"]{
+	text-security:circle;
+	-webkit-text-security:circle;
+}
+.login-form .group .label{
+	color:#aaa;
+	font-size:12px;
+}
+.login-form .group .button{
+	background:#1161ee;
+}
+.login-form .group label .icon{
+	width:15px;
+	height:15px;
+	border-radius:2px;
+	position:relative;
+	display:inline-block;
+	background:rgba(255,255,255,.1);
+}
+.login-form .group label .icon:before,
+.login-form .group label .icon:after{
+	content:'';
+	width:10px;
+	height:2px;
+	background:#fff;
+	position:absolute;
+	transition:all .2s ease-in-out 0s;
+}
+.login-form .group label .icon:before{
+	left:3px;
+	width:5px;
+	bottom:6px;
+	transform:scale(0) rotate(0);
+}
+.login-form .group label .icon:after{
+	top:6px;
+	right:0;
+	transform:scale(0) rotate(0);
+}
+.login-form .group .check:checked + label{
+	color:#fff;
+}
+.login-form .group .check:checked + label .icon{
+	background:#1161ee;
+}
+.login-form .group .check:checked + label .icon:before{
+	transform:scale(1) rotate(45deg);
+}
+.login-form .group .check:checked + label .icon:after{
+	transform:scale(1) rotate(-45deg);
+}
+.login-html .sign-in:checked + .tab + .sign-up + .tab + .login-form .sign-in-htm{
+	transform:rotate(0);
+}
+/* .login-html .sign-up:checked + .tab + .login-form .sign-up-htm{
+	transform:rotate(0);
+} */
+
+.hr{
+	height:2px;
+	margin:60px 0 50px 0;
+	background:rgba(255,255,255,.2);
+}
+.foot-lnk{
+	text-align:center;
+}
+
+
+header {
+  height:360px;
+  z-index:10;
+}
+.header-banner {
+  background-color: #333;
+  background-image: url('header.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:90%;
+  height: 95%;
+}
+
+header .logo {
+  background-color: transparent;
+  background-image: url('http://www.futhead.com/static//img/14/clubs/1887.png');
+  background-position: center top;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 72px; 
+  height: 256px;
+  width: 256px;
+}
+
+header h1 {
+  position: absolute;
+		
+  top: 72px; 
+  left: 240px;
+  color: #fff;
+}
+
+.fixed-header {
+  position: fixed;
+  top:0; left:0;
+  width: 100%; 
+}
+
+nav {
+  width:100%;
+  height:60px;
+  background: #292f36;
+  postion:fixed;
+  z-index:10;
+}
+
+nav ul { 
+  list-style-type: none;
+  margin: 0 auto;
+  padding-left:0;
+  width: 100%;
+  max-width: 100%;
+height:100%;
+   text-align: center;
+  background: #343434;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+nav ul li { 
+  display: inline-block; 
+  line-height: 20px;
+  margin-left: 10px;
+  
+}
+nav ul li a {
+   padding: 18px;
+  font-family: "Open Sans";
+  text-transform:uppercase;
+  color:white;
+  font-size: 18px;
+  text-decoration: none;
+  display: block;
+  
+}
+
+nav ul li a:hover {
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  background: #111111;
+  color: white;
+}
+
+  .banner{
+  position: absolute;
+  float:right;
+  left: 50%;
+  display: block;
+  margin: 210px -200px;
+  width: 400px;
+  height: 60px;
+  border: 1px solid #8a1;
+  font: normal 30px/60px 'Rye';
+  text-align: center;
+  color: #451;
+  background: #E3EEB1  ;
+}
+
+
+
+
+

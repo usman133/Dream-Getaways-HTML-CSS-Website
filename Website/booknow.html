@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href= "booknow.css">
+<title>Book now</title>
+
+</head>
+<center>
+
+<!-- Header -->
+<header>
+  <div class="header-banner">
+<h1 class="banner">Dream Getaways Resort</h1>
+  <div class="clear"></div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<!-- Navigation bar -->
+<nav>
+  <ul>
+  <center>
+    <li><a href="./home.html">Home</a></li>
+    <li><a href="./Experience.html">Services</a></li>
+    <li><a href="./Aboutus.html">About us</a></li>
+    <li><a href="./Contactus.html">Contact us</a></li>
+	<li><a href="./booknow.html">Book now</a></a></li>
+	<li><a href="./login.html">Admin Login</a></li>
+	</Center>  
+  </ul>
+ 
+</nav>
+
+<script>
+$(window).scroll(function(){
+    if ($(window).scrollTop() >= 360) {
+       $('nav').addClass('fixed-header');
+    }
+    else {
+       $('nav').removeClass('fixed-header');
+    }
+});
+</script>
+
+</header>
+</center>
+<br><br>
+
+<!-- Page body -->
+<body>
+<center>
+<div class="container">  
+  <form id="contact" action="" method="post">
+    <center><h3>Activities</h3></center>
+
+	<h4>Complete the following form to find availability. </h4>
+	<p id="date"></p><br>
+  
+   <fieldset>
+    <h4>Choose activities:</h4>
+       <h4>
+   <input type="checkbox" name="activity" value="biking"> Biking &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+  <input type="checkbox" name="activity" value="kayaking"> Kayaking &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+     <input type="checkbox" name="activity" value="canoeing"> Canoeing <br><br>
+  <input type="checkbox" name="activity" value="tennis"> Tennis &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+  <input type="checkbox" name="activity" value="golf"> Golf &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+  
+  </h4>
+  </fieldset>
+
+	  
+	  <fieldset>
+	  <h4>Choose date: &nbsp
+  <input type="date" name="ChooseDate" max="2021-05-01" min="2020-05-01" tabindex="6" required></h4>
+	</fieldset
+	
+	<fieldset>
+	<h4>Choose time (optional): &nbsp
+  <input type="time" name="usr_time" tabindex="7"></h4>
+  </fieldset>
+  
+  <fieldset>
+  <h4>
+  <input type="checkbox" name="schedule" value="flexible"> Flexible
+  </h4></fieldset>
+  
+  
+  <fieldset required>
+  <h4>Adults: &nbsp 
+  <select tabindex="8" >
+  <option value="0" > </option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+  <option value="6">6</option>
+  <option value="7">7</option>
+  <option value="8">8</option>
+  <option value="9">9</option>
+
+</select>
+</h4>
+</fieldset>
+
+  <fieldset required>
+  <h4>Child (<16): &nbsp
+  <select tabindex="9" >
+  <option value="11"> </option>
+   <option value="0">0</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+
+  </select>
+</h4>
+</fieldset><br>
+	
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending" tabindex="11">Check availability</button>
+    </fieldset>
+  </form>  
+</div>
+
+&nbsp &nbsp 
+  
+  
+
+<div class="container1">  
+  <form id="contact" action="" method="post">
+    <center><h3>Accommodation</h3></center>
+
+   <h4>Complete the following form to find availability. </h4>
+	<p id="date1"></p><br>
+	
+		  <fieldset>
+	  <h4>Check in: &nbsp
+  <input type="date" name="ChooseDate" max="2021-05-01" min="2020-05-01" tabindex="6" required></h4>
+	</fieldset>
+	
+	<fieldset>
+	<h4>Check out: &nbsp
+  <input type="date" name="ChooseDate" max="2021-05-01" min="2020-05-01" tabindex="6" required></h4>
+  </fieldset>
+  
+  <fieldset>
+  <h4>
+  <input type="checkbox" name="schedule" value="flexible"> Flexible
+  </h4></fieldset>
+  
+   <fieldset required>
+  <h4>Adults: &nbsp 
+  <select tabindex="8" >
+  <option value="0" > </option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+  <option value="6">6</option>
+  <option value="7">7</option>
+  <option value="8">8</option>
+  <option value="9">9</option>
+
+</select>
+</h4>
+
+</fieldset>
+
+  <fieldset required>
+  <h4>Child (<16): &nbsp
+  <select tabindex="9" >
+  <option value="11"> </option>
+   <option value="0">0</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+
+  </select>
+</h4>
+</fieldset>
+  
+  </fieldset>
+
+  <fieldset required>
+  <h4>Room (s): &nbsp
+  <select tabindex="9" >
+  <option value="11"> </option>
+   <option value="0">0</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+
+  </select>
+</h4>
+</fieldset><P>&nbsp</p><P>&nbsp</p><P>&nbsp</p><P>&nbsp</p>
+  <fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending" tabindex="11">Check availability</button>
+
+    </fieldset>
+	
+	
+	
+	 </form>  
+</div>
+
+	
+	<script>
+document.getElementById("date").innerHTML = Date();
+</script>
+
+	<script>
+document.getElementById("date1").innerHTML = Date();
+</script>
+
+
+<!-- Footer -->
+<center><footer><center><div class="boxit">
+			<table>
+			<tr>
+			<td style="position: relative; left: 0px; top: 0px; width: 550px;" >
+			100 Oriental Parade, Oriental Bay, Wellington 6011, New Zealand<br>
+			Booking Enquiries: 123-456-7899<br>
+			Email: <a href="mailto:">reception@dreamgetaways.co.nz</a><br><br><br>
+			<span style="color: rgb(192, 192, 192); font-size: 10px; font-family: arial, ArialRegular, helvetica, sans-serif;">ALL RIGHTS RESERVED TO DREAM GETAWAYS RESORT LTD </span>
+			</div>
+			</td>
+</center>
+
+
+<!-- Social media links -->
+	<td style="position: relative; left: 280px; top: 0px; width: 550px; align: right;" >
+				<a href="https://twitter.com/ICC">
+				<img src="twitter.png" alt="twitter" width = "70px" height = "70px" />&nbsp&nbsp
+				</a>
+				<a href="https://www.facebook.com/MohammadRezaSFL"/>
+				<img src="facebook.png" alt="facebook" width = "70px" height = "70px"/>&nbsp&nbsp
+				</a>
+				<a href="https://www.instagram.com/usman133"/>
+				<img src="instagram.png" alt="instagram" width = "70px" height = "70px"/>
+				</a>
+				</td>
+			</table>
+			</div><br>
+		
+			</div></footer></center>
+	<p>&nbsp;</p>
+
+</body>
+</html>
+

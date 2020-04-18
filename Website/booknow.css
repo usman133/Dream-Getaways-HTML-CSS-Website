@@ -1,0 +1,370 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
+
+body {
+  background-image: url("http://2.bp.blogspot.com/-Xmo26BMqg5Q/UihlqVwTwgI/AAAAAAAAAv0/V-Rrgm0V6oo/s1600/Top+10+best+Simple+Awesome+Background+Images+for+Your+Website+or+Blog3.jpg");
+  font-family: "Roboto", sans-serif;
+  background-size: 100% 200%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+ 
+.wrapper {
+  width: 100%;
+  margin: auto;
+}
+ 
+a {
+  text-decoration: none;
+}
+ 
+/*Nav Bar Styling*/
+ 
+ 
+.logo {
+  font-size: 3em;
+  margin-left: 25px;
+  color: white;
+}
+ 
+.top-bar::after {
+  content: '';
+  display: block;
+  background: #494949;
+  height: 5px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+ /* nav {
+  
+  width:100%;
+  mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+nav ul {
+  text-align: center;
+  background: #343434;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  padding: 18px;
+  font-family: "Open Sans";
+  text-transform:uppercase;
+  color:white;
+  font-size: 18px;
+  text-decoration: none;
+  display: block;
+}
+
+nav ul li a:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  background: #111111;
+  color: white;
+}
+ */
+ 
+/* .second-bar {
+  width: 100%;
+  border-radius: 10px;
+}
+ 
+.main-nav a {
+  float: left;
+  width: auto;
+  background: #343434;
+}
+ 
+
+ 
+nav a {
+  color: inherit;
+  display: inline-block;
+  padding: 30px 50px;
+  text-align: center;
+}
+ ul {
+    list-style-type: none;
+    margin: 0px 30px 0px 30px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    margin-right: 25%;
+	margin-left: 28.5%;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+ */
+
+
+
+
+
+*,:after,:before{box-sizing:border-box}
+.clearfix:after,.clearfix:before{content:'';display:table}
+.clearfix:after{clear:both;display:block}
+a{color:inherit;text-decoration:none}
+
+ * {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-font-smoothing:antialiased;
+	-moz-font-smoothing:antialiased;
+	-o-font-smoothing:antialiased;
+	font-smoothing:antialiased;
+	text-rendering:optimizeLegibility;
+ }
+
+
+
+.container {
+	max-width:447px;
+	width:100%;
+	margin:0 auto;
+	position:relative;
+	display: inline-block;
+	text-align:left;
+    
+}
+
+.container1 {
+	max-width:447px;
+	width:100%;
+	margin:0 auto;
+	position:relative;
+	display: inline-block;
+	text-align:left;
+
+
+	
+}
+
+
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+
+#contact {
+	background:#F9F9F9;
+	padding:25px;
+	margin:50px 0;
+}
+
+#contact h3 {
+	color: #F96;
+	display: block;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+#contact h4 {
+	margin:5px 0 15px;
+	display:block;
+	font-size:13px;
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+	width:100%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+
+#contact textarea {
+	height:100px;
+	max-width:100%;
+  resize:none;
+}
+
+#contact button[type="submit"] {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background:#0CF;
+	color:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+}
+
+#contact button[type="submit"]:hover {
+	background:#09C;
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contact input:focus, #contact textarea:focus {
+	outline:0;
+	border:1px solid #999;
+}
+::-webkit-input-placeholder {
+ color:#888;
+}
+:-moz-placeholder {
+ color:#888;
+}
+::-moz-placeholder {
+ color:#888;
+}
+:-ms-input-placeholder {
+ color:#888;
+}
+
+p {
+	font-size : 13px;
+}
+
+footer {
+  background: #2db34a;
+  bottom: 0;
+  width:90%;
+  left: 0;
+  padding: 20px 0;
+  position: bottom;
+  right: 0;
+  color: #808080; 
+font-size: 18px; 
+font-family: Arial, ArialRegular, helvetica, sans-serif;
+background: #000000;
+}
+
+header {
+  height:360px;
+  z-index:10;
+}
+.header-banner {
+  background-color: #333;
+  background-image: url('header.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:90%;
+  height: 95%;
+}
+
+header .logo {
+  background-color: transparent;
+  background-image: url('http://www.futhead.com/static//img/14/clubs/1887.png');
+  background-position: center top;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 72px; 
+  height: 256px;
+  width: 256px;
+}
+
+header h1 {
+  position: absolute;
+		
+  top: 72px; 
+  left: 240px;
+  color: #fff;
+}
+
+.fixed-header {
+  position: fixed;
+  top:0; left:0;
+  width: 100%; 
+}
+
+nav {
+  width:100%;
+  height:60px;
+  background: #292f36;
+  postion:fixed;
+  z-index:10;
+}
+
+nav ul { 
+  list-style-type: none;
+  margin: 0 auto;
+  padding-left:0;
+  width: 100%;
+  max-width: 100%;
+height:100%;
+   text-align: center;
+  background: #343434;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+nav ul li { 
+  display: inline-block; 
+  line-height: 20px;
+  margin-left: 10px;
+  
+}
+nav ul li a {
+   padding: 18px;
+  font-family: "Open Sans";
+  text-transform:uppercase;
+  color:white;
+  font-size: 18px;
+  text-decoration: none;
+  display: block;
+  
+}
+
+nav ul li a:hover {
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  background: #111111;
+  color: white;
+}
+
+  .banner{
+  position: absolute;
+  float:right;
+  left: 50%;
+  display: block;
+  margin: 210px -200px;
+  width: 400px;
+  height: 60px;
+  border: 1px solid #8a1;
+  font: normal 30px/60px 'Rye';
+  text-align: center;
+  color: #451;
+  background: #E3EEB1  ;
+}
+
+
+
